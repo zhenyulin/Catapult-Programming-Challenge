@@ -5,11 +5,11 @@
 - All calculations must take place server-side, and all monthly projection data should be returned via an endpoint
 - The calculations must be triggered onChange of any input, to give live feedback on the input data. The performance (try the slider) should be reasonable.
 
+![screenshot](https://github.com/zhenyulin/Catapult-Programming-Challenge/blob/6d07a5c08eb5e6ffe3fd2c5ea496c66ebd5fbba2/docs/Screenshot%202022-09-08%20at%2018.31.04.png)
+
 ## Solutions
 
 As for the purpose of a test, the solution will be primarily focusing on implementing the key features needed factoring various possible edge cases. It intends to introduce minimal changes to the configuration, leaves anything that can be engineered in a more scalable systematic manner in the [Possible Further Steps](possible-further-steps) section.
-
-I've included a screenshot of the working UI in the docs folder.
 
 ### backend
 
