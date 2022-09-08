@@ -40,7 +40,7 @@ const ValueInput = ({
         <Input value={deposit} onChange={handleIntInput(setDeposit)} />
       </InputGroup>
       <InputGroup>
-        <InputLeftAddon children="Interest Rate" />
+        <InputLeftAddon children="Yearly Interest Rate" />
         <NumberInput
           precision={2}
           value={interestRate}
