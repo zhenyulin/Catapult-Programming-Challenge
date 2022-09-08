@@ -41,27 +41,26 @@ As for the purpose of a test, the solution will be primarily focusing on impleme
 
 ## Possible Further Steps
 
-- UX
-
-  - There're many aspects of UX, while the most fundamental one would be making sure the features are working for all intended users in all intended use cases, which would be the focus in the scope of this test
-  - There can be a more systematic way to set up a pattern library in sync with components, style guide, fine tuning the elements to pixel perfect, set up a proper UX process involving user research, design, metrics, for which I would be happy to have a much longer conversation on.
-
-- Microservices Production Ready
+- Microservice | DevOps | DX
 
   - decoupling
   - development tooling (config management, code quality, etc.)
-    - - code quality (lint, test coverage, commit, hook, etc.)
   - building tools
   - E2E test
   - CI/CD
     - dotenv for API endpoints and tokens, credential management
-    - Makefile for programmable commands
   - Observability tools (depending on the deployment option)
   - analytics integration
   - ...
 
 - Systematic Engineering, Internal Libraries and Resources
-  - error handler
+  - error handling
+  - schema x types, input validation
   - reusable component library x UX pattern library
-  - well tested API client
-  - setup testing APIs for development
+  - API client generation
+  - ...
+
+- UX
+
+  - There're many aspects of UX, while the most fundamental one would be making sure the features are working for all intended users in all intended use cases, which would be the focus in the scope of this test
+  - There can be a more systematic way to set up a pattern library in sync with components, style guide, fine tuning the elements to pixel perfect, set up a proper UX process involving user research, design, metrics, for which I would be happy to have a much longer conversation on.
