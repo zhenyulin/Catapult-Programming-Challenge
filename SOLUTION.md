@@ -9,6 +9,8 @@
 
 As for the purpose of a test, the solution will be primarily focusing on implementing the key features needed factoring various possible edge cases. It intends to introduce minimal changes to the configuration, leaves anything that can be engineered in a more scalable systematic manner in the [Possible Further Steps](possible-further-steps) section.
 
+I've included a screenshot of the working UI in the docs folder.
+
 ### backend
 
 - add an API endpoint for calculating saving projection on monthly deposit
